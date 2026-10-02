@@ -5,12 +5,17 @@ alwaysApply: true
 
 # AppGym
 
-Antes de cambiar código, lee `AGENTS.md` y `MEMORY.md` en la raíz del repo.
+Onboarding del agente:
+
+1. `MEMORY.md` (estado)
+2. `AGENTS.md` (reglas)
+3. `docs/HISTORIA.md` y `docs/ARQUITECTURA.md` si falta contexto
+4. Índice: `docs/README.md`
 
 - Flutter, UI en español, tema azul (`AppColors.lime` = acento azul).
 - Usar `GymScaffold` para pantallas (menú + Inicio).
 - Respetar `namedExercises` (con/sin nombres de ejercicio).
 - No reintroducir SVG de ejercicios salvo petición explícita.
-- Tras cambios de producto o arquitectura, actualizar `MEMORY.md`.
+- Tras cambios de producto o arquitectura: actualizar `MEMORY.md` (y `docs/HISTORIA.md` si aplica).
 - `flutter analyze` + `flutter test` antes de dar por cerrado un cambio.
 - Commit/push solo si el usuario lo pide.

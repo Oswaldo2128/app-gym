@@ -80,10 +80,15 @@ Sin backend ni autenticación: todo corre en el cliente.
 
 ## Desarrollo con IA
 
-Este repo incluye guías para agentes:
+Para retomar contexto (humano o agente):
 
-- [`AGENTS.md`](AGENTS.md) — convenciones y flujos que no hay que romper  
-- [`MEMORY.md`](MEMORY.md) — estado actual, decisiones y backlog  
+| Doc | Contenido |
+|-----|-----------|
+| [`MEMORY.md`](MEMORY.md) | Estado actual, decisiones, backlog |
+| [`AGENTS.md`](AGENTS.md) | Reglas de trabajo del agente |
+| [`docs/`](docs/README.md) | Historia + arquitectura |
+
+Orden sugerido: **MEMORY → AGENTS → docs/HISTORIA → docs/ARQUITECTURA**.
 
 ## Licencia
 
