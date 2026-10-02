@@ -1,0 +1,16 @@
+---
+description: Contexto y reglas base de AppGym para agentes
+alwaysApply: true
+---
+
+# AppGym
+
+Antes de cambiar código, lee `AGENTS.md` y `MEMORY.md` en la raíz del repo.
+
+- Flutter, UI en español, tema azul (`AppColors.lime` = acento azul).
+- Usar `GymScaffold` para pantallas (menú + Inicio).
+- Respetar `namedExercises` (con/sin nombres de ejercicio).
+- No reintroducir SVG de ejercicios salvo petición explícita.
+- Tras cambios de producto o arquitectura, actualizar `MEMORY.md`.
+- `flutter analyze` + `flutter test` antes de dar por cerrado un cambio.
+- Commit/push solo si el usuario lo pide.
